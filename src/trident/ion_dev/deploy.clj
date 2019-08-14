@@ -45,6 +45,6 @@
                        :parse-fn #(map symbol (str/split % #":"))]}
    :option-keys [:uname :exclude]
    :config :trident/ion
-   :prog "clj -m trident.ion.build"})
+   :prog "clj -m trident.ion-dev.deploy"})
 
 (defmain cli)
